@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+}
+#wrapper input{
+    width:170px;
+    padding:0.3rem;
+    border-radius: 3px; 
+    margin-right:1rem;
+}
+#wrapper button{
+    padding:0.4rem;
+    background-color:black;
+    color:white;
+    border:none;
+    font-weight: 600;
+    /* border-radius: 3px; */
+}
